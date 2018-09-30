@@ -1,0 +1,27 @@
+.navbar {
+  width: calc(100% - 48px);
+  min-height: 40px;
+  background-color: white;
+  box-shadow: $box-shadow;
+  z-index: 10;
+  padding: 8px 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+
+  .navbar-link {
+    margin: 0 8px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+}

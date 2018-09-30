@@ -1,0 +1,40 @@
+{
+  "name": "@duffle-bag/css",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-sass src/scss -o dist/css",
+    "run:dev": "live-server",
+    "build:watch": "node-sass --watch src/scss -o dist/css",
+    "dev": "concurrently -k -p \"[{name}]\" -n \"Node-Sass,Server\" -c \"cyan.bold,green.bold\"  \"npm run build:watch\" \"npm run run:dev\"",
+    "test": "npm run bundlesize",
+    "bundlesize": "bundlesize"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:rishabh09/duffle-bag-website.git"
+  },
+  "author": "Rishabh Mishra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rishabh09/duffle-bag-website/issues"
+  },
+  "homepage": "https://rishabh09.github.io/duffle-bag-website/",
+  "devDependencies": {
+    "bundlesize": "0.17.0",
+    "live-server": "1.2.0",
+    "node-sass": "4.9.3",
+    "stylelint": "9.5.0",
+    "stylelint-config-recommended-scss": "3.2.0",
+    "stylelint-config-standard": "18.2.0",
+    "stylelint-scss": "3.3.0"
+  },
+  "dependencies": {
+    "concurrently": "4.0.1"
+  },
+  "bundlesize": [{
+    "path": "./dist/css/duffle-bag.css",
+    "maxSize": "3 kB"
+  }]
+}

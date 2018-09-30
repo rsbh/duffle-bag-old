@@ -1,0 +1,122 @@
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+.btn {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  background-color: transparent;
+  border: $border-width solid transparent;
+  padding: .3rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-decoration: none;
+  border-radius: .25rem;
+  cursor: pointer;
+
+  i {
+    font-size: inherit;
+    line-height: inherit;
+    vertical-align: bottom;
+    margin: 0 2px;
+  }
+}
+
+.btn-lg {
+  padding: .5rem 1.25rem;
+  font-size: 1.25rem;
+  border-radius: .3rem;
+}
+
+.btn-sm {
+  padding: .15rem .375rem;
+  font-size: .75rem;
+  border-radius: .2rem;
+}
+
+.btn-full {
+  display: block;
+  width: 100%;
+
+  &+& {
+    margin-top: 8px;
+  }
+}
+
+.btn-circle {
+  padding: unset;
+  border-radius: 50%;
+  line-height: 2rem;
+  height: 2rem;
+  width: 2rem;
+  font-size: 1.25rem;
+
+  &.btn-sm {
+    line-height: 1rem;
+    height: 1rem;
+    width: 1rem;
+    font-size: .75rem;
+  }
+
+  &.btn-lg {
+    font-size: 2rem;
+    line-height: 3rem;
+    height: 3rem;
+    width: 3rem;
+  }
+}
+
+.btn-link,
+a.btn {
+  color: $link-color;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &:disabled,
+  &.btn-disabled {
+    color: $grey-2;
+    pointer-events: none;
+  }
+}
+
+@each $color,
+$value in $button-colors {
+  .btn-#{$color} {
+    background-color: $value;
+    color: white;
+
+    &:hover {
+      background-color: rgba($value, .7);
+    }
+
+    &:disabled,
+    &.btn-disabled {
+      background-color: rgba($value, .5);
+      pointer-events: none;
+    }
+  }
+}
+
+@each $color,
+$value in $button-colors {
+  .btn-outline-#{$color} {
+    color: $value;
+    border-color: $value;
+
+    &:hover {
+      background-color: $value;
+      color: white;
+    }
+
+    &:disabled,
+    &.btn-disabled {
+      color: rgba($value, .5);
+      border-color: rgba($value, .5);
+      pointer-events: none;
+    }
+  }
+}
