@@ -1,6 +1,6 @@
 {
   "name": "duffle-bag",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "React UI kit",
   "main": "index.js",
   "scripts": {
