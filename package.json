@@ -9,6 +9,6 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "lerna": "^3.4.0"
+    "lerna": "^2.8.0"
   }
 }
