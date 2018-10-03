@@ -12,7 +12,7 @@ input[type="reset"],
   padding: .3rem .75rem;
   font-size: 1rem;
   line-height: 1.5;
-  text-decoration: none;
+  text-decoration: none !important;
   border-radius: .25rem;
   cursor: pointer;
 
@@ -87,7 +87,7 @@ a.btn {
 $value in $button-colors {
   .btn-#{$color} {
     background-color: $value;
-    color: white;
+    color: white !important;
 
     &:hover {
       background-color: rgba($value, .7);
@@ -104,17 +104,17 @@ $value in $button-colors {
 @each $color,
 $value in $button-colors {
   .btn-outline-#{$color} {
-    color: $value;
+    color: $value !important;
     border-color: $value;
 
     &:hover {
       background-color: $value;
-      color: white;
+      color: white !important;
     }
 
     &:disabled,
     &.btn-disabled {
-      color: rgba($value, .5);
+      color: rgba($value, .5) !important;
       border-color: rgba($value, .5);
       pointer-events: none;
     }

@@ -2,7 +2,7 @@
   "name": "@duffle-bag/css",
   "version": "0.1.1",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "build": "node-sass src/scss -o dist/css",
     "run:dev": "live-server",
@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:rishabh09/duffle-bag-website.git"
+    "url": "git+ssh://git@github.com:rishabh09/duffle-bag.git"
   },
   "author": "Rishabh Mishra",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rishabh09/duffle-bag-website/issues"
+    "url": "https://github.com/rishabh09/duffle-bag/issues"
   },
-  "homepage": "https://rishabh09.github.io/duffle-bag-website/",
+  "homepage": "https://duffle-bag.tech",
   "devDependencies": {
     "bundlesize": "0.17.0",
     "live-server": "1.2.0",
