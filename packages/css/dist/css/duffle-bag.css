@@ -206,7 +206,8 @@ input[type="reset"],
   line-height: 1.5;
   text-decoration: none !important;
   border-radius: .25rem;
-  cursor: pointer; }
+  cursor: pointer;
+  margin: 4px; }
   button i,
   input[type="button"] i,
   input[type="submit"] i,
@@ -453,3 +454,31 @@ a.btn {
   justify-content: center;
   align-items: center;
   flex-direction: column; }
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  min-width: 0;
+  word-wrap: break-word;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  padding: 16px; }
+  .card + .card {
+    margin-top: 16px; }
+  .card .card-header {
+    display: flex;
+    width: 100%;
+    padding-bottom: 16px;
+    font-size: 1.6rem; }
+  .card .card-body .card-title {
+    font-size: 1.4rem;
+    margin-bottom: 8px;
+    color: black; }
+  .card .card-body .card-text {
+    line-height: 1.5; }
+  .card .card-body .card-text + .card-text {
+    margin-top: 8px; }
+  .card .card-footer {
+    margin-top: 16px; }
