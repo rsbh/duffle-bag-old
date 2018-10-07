@@ -18,10 +18,10 @@ input[type="reset"],
   margin: 4px;
 
   i {
-    font-size: inherit;
-    line-height: inherit;
+    font-size: inherit !important;
+    line-height: inherit !important;
     vertical-align: bottom;
-    margin: 0 2px;
+    margin: 0 auto;
   }
 }
 
