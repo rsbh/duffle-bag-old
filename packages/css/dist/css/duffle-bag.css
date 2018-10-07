@@ -213,10 +213,10 @@ input[type="reset"],
   input[type="submit"] i,
   input[type="reset"] i,
   .btn i {
-    font-size: inherit;
-    line-height: inherit;
+    font-size: inherit !important;
+    line-height: inherit !important;
     vertical-align: bottom;
-    margin: 0 2px; }
+    margin: 0 auto; }
 
 .btn-lg {
   padding: .5rem 1.25rem;
