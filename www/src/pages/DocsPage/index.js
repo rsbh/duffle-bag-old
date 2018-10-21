@@ -11,9 +11,10 @@ class DocsPage extends React.Component {
             <a href="/docs/button" className="btn btn-link">
               Buttons
             </a>
-            {/* <a href="#" className="btn btn-link">
+            <a href="/docs/input" className="btn btn-link">
               Input
             </a>
+            {/*
             <a href="#" className="btn btn-link">
               Navbar
             </a> */}

@@ -1,0 +1,23 @@
+input {
+  padding: 8px 24px;
+  display: flex;
+  width: calc(100% - 48px);
+  border-radius: 16px;
+  outline: none;
+  border: 1px solid $grey-1;
+  font-size: 1rem;
+  color: $custom-black;
+}
+
+.input-field {
+  position: relative;
+  background-color: red;
+  padding-top: 24px;
+
+  label {
+    position: absolute;
+    top: 0px;
+    font-size: 1rem;
+    padding: 8px;
+  }
+}

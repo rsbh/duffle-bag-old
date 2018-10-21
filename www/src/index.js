@@ -11,6 +11,7 @@ import HomePage from "./pages/HomePage";
 import DocsPage from "./pages/DocsPage";
 import ButtonDocs from "./pages/css-docs/buttons";
 import CardDocs from "./pages/css-docs/cards";
+import InputDocs from "./pages/css-docs/input";
 
 const App = () => (
   <Router>
@@ -19,6 +20,7 @@ const App = () => (
       <Route exact path="/docs" component={DocsPage} />
       <Route exact path="/docs/button" component={ButtonDocs} />
       <Route exact path="/docs/card" component={CardDocs} />
+      <Route exact path="/docs/input" component={InputDocs} />
     </Switch>
   </Router>
 );
