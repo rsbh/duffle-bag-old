@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/rishabh09/duffle-bag/issues"
   },
-  "homepage": "https://github.com/rishabh09/duffle-bag#readme",
+  "homepage": "https://duffle-bag.tech",
   "devDependencies": {
     "@babel/core": "7.1.2",
     "@babel/preset-env": "7.1.0",
@@ -30,5 +30,8 @@
     "react": "16.5.2",
     "react-dom": "16.5.2",
     "styled-components": "4.0.2"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
