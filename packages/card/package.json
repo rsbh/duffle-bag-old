@@ -1,6 +1,6 @@
 {
   "name": "@duffle-bag/card",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Card Component for duffle-bag",
   "main": "index.js",
   "scripts": {
