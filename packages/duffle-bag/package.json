@@ -1,6 +1,6 @@
 {
   "name": "duffle-bag",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "React UI kit",
   "main": "index.js",
   "scripts": {
@@ -26,6 +26,8 @@
     "webpack": "4.21.0"
   },
   "dependencies": {
+    "@duffle-bag/button": "0.0.0",
+    "@duffle-bag/card": "0.0.1",
     "prop-types": "15.6.2",
     "react": "16.5.2",
     "react-dom": "16.5.2",
