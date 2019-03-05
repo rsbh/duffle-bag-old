@@ -5,11 +5,19 @@
   "main": "index.js",
   "scripts": {
     "postinstall": "lerna bootstrap",
+    "storybook": "start-storybook -p 9001 -c .storybook",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
     "lerna": "^2.8.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@storybook/react": "^4.1.13",
+    "babel-loader": "^8.0.5",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3"
   }
 }
