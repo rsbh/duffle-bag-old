@@ -482,3 +482,23 @@ a.btn {
     margin-top: 8px; }
   .card .card-footer {
     margin-top: 16px; }
+
+input {
+  padding: 8px 24px;
+  display: flex;
+  width: calc(100% - 48px);
+  border-radius: 16px;
+  outline: none;
+  border: 1px solid #6a6a6a;
+  font-size: 1rem;
+  color: #4e4e4e; }
+
+.input-field {
+  position: relative;
+  background-color: red;
+  padding-top: 24px; }
+  .input-field label {
+    position: absolute;
+    top: 0px;
+    font-size: 1rem;
+    padding: 8px; }

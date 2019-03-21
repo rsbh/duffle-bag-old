@@ -1,19 +1,22 @@
 {
-  "name": "duffle-bag",
+  "name": "@duffle-bag/card",
   "version": "0.0.1",
-  "description": "React UI kit",
+  "description": "Card Component for duffle-bag",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rishabh09/duffle-bag.git"
+    "url": "git+ssh://git@github.com/rishabh09/duffle-bag.git"
   },
   "author": "Rishabh Mishra",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/rishabh09/duffle-bag/issues"
   },
-  "homepage": "https://github.com/rishabh09/duffle-bag#readme"
+  "homepage": "https://duffle-bag.tech",
+  "publishConfig": {
+    "access": "public"
+  }
 }
