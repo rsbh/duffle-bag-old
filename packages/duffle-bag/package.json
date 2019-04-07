@@ -21,10 +21,10 @@
     "react-dom": "^16.3.1"
   },
   "dependencies": {
-    "prop-types": "15.6.2",
-    "react": "16.5.2",
-    "react-dom": "16.5.2",
-    "styled-components": "4.0.2"
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "styled-components": "^4.2.0"
   },
   "publishConfig": {
     "access": "public"
