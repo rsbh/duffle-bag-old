@@ -24,7 +24,7 @@
   "devDependencies": {
     "bundlesize": "0.17.0",
     "live-server": "1.2.0",
-    "node-sass": "4.9.3",
+    "node-sass": "4.13.1",
     "stylelint": "9.5.0",
     "stylelint-config-recommended-scss": "3.2.0",
     "stylelint-config-standard": "18.2.0",
